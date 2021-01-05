@@ -2,6 +2,8 @@
 //   med id't "plantCards" för att kunna fylla HTML-elementet
 //   med fler plantor
 
+const listOfPlants = document.getElementById('plantCards'); 
+
 //2. Här är en array med alla plant-objekt.
 //   Lägg gärna till fler plantor om du vill!
 const plants = [
@@ -47,6 +49,11 @@ const plants = [
 
 //3. Börja med att loopa över arrayen och för varje planta loggar du
 //   t.ex. plantans namn i consollen.
+
+for(const name of plants) {
+  console.log(name)
+}
+
 
 //4. Fick du alla namnen utskrivna i consollen? Härligt! Nu kan vi börja
 //   modifiera DOM-en. Använd varaibeln som du skapade i början av denna
