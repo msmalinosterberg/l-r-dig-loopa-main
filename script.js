@@ -57,12 +57,10 @@ for( items of plants) {
 */ 
 const listOfPlants = document.getElementById('plantCards'); 
 
-plants.forEach(function(name) {
-console.log(name)
-}); 
+plants.forEach(function(plants) {
+listOfPlants.innerHTML += plants;
 
-
-
+}) 
 
 
 
