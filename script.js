@@ -49,9 +49,18 @@ const plants = [
 
 //3. Börja med att loopa över arrayen och för varje planta loggar du
 //   t.ex. plantans namn i consollen.
+/*
+for(const items of plants) {
+  listOfPlants.innerHTML += plantCards 
+  console.log(items)
+}
+*/ 
 
-for(const name of plants) {
-  console.log(name)
+plants.forEach(myFunction);
+
+function myFunction() {
+  listOfPlants += plantCards.push(); 
+  
 }
 
 
